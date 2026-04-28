@@ -3,30 +3,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Insaynitea Coffee Shop System</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
+
     <body>
-        <h1>This is the HomePage</h1>
+        <h1>Insaynitea Coffee</h1>
         <br>
-        <img src="coffee.png"
+        <img src="../img/coffee.png"
         height="200"
         alt="This is a picture of a coffee">
         <br>
 
-        <button onClick="Login()">Log in as Cashier</button> <br> <br>
-        <script>
-            function Login() {
-                window.location.href = "login.html";
-            }
-        </script>
+        <!--Go To login Cashier button-->
 
-        <button>Login as Manager</button> <br> <br>
+        <button onClick="GoToLoginC()">Log in as Cashier</button>
+
+
+        <!--Go To Login Manager button-->
+
+        <button onClick="GoToLoginM()">Log in as Manager</button>
+
+        <!--Go To SignUp button-->
+
         <button onClick="SignUp()">Sign Up</button> <br> <br>
-
-        <script>
-            function SignUp() {
-                window.location.href = "signUp.html";
-            }
-        </script>
     </body>
 </html>

@@ -1,11 +1,7 @@
 body {
     background-color: #4e6b2e;
-
-    display: flex;
-    justify-content: center;   /* center horizontally */
-    align-items: center;       /* center vertically */
-    height: 100vh;             /* full screen height */
     margin: 0;
+    gap: 10px;
 }
 
 button {
