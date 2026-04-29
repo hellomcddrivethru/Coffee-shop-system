@@ -7,24 +7,27 @@
     </head>
 
     <body>
+          
         <h1>Insaynitea Coffee</h1>
-        <br>
-        <img src="../img/coffee.png"
-        height="200"
+
+        <img class="cup" src="../img/coffee.png"
         alt="This is a picture of a coffee">
         <br>
 
-        <!--Go To login Cashier button-->
+        <div class="button-container">
+            <!--Go To login Cashier button-->
 
-        <button onClick="GoToLoginC()">Log in as Cashier</button>
+            <button class="main-btn" onClick="GoToLoginC()">Log in as Cashier</button>
 
+            <!--Go To Login Manager button-->
+            
+            <button class="main-btn" onClick="GoToLoginM()">Log in as Manager</button>
 
-        <!--Go To Login Manager button-->
+            <!--Go To SignUp button-->
 
-        <button onClick="GoToLoginM()">Log in as Manager</button>
+            <button class="main-btn" onClick="SignUp()">Sign Up</button> <br> <br>
 
-        <!--Go To SignUp button-->
-
-        <button onClick="SignUp()">Sign Up</button> <br> <br>
+        </div>
+        
     </body>
 </html>

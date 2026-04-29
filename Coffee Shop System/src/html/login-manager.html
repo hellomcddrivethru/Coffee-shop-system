@@ -1,21 +1,43 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insaynitea Coffee Shop System</title>
-    <link rel="icon" type="image/x-icon" href="../img/coffee.ico">
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-        <h1>Login As Manager</h1>
-        <label for="Username"></label>
-        <input type="text" placeholder="username"> 
-        <label for="Password"></label>
-        <input type="password" placeholder="enter password" id=""> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Insaynitea Coffee Shop System</title>
+        <link rel="icon" type="image/x-icon" href="../img/coffee.ico">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
 
-        <!--login button-->
-        <button onClick="loginManager()">Login</button>
-        
-        <a href="index.html">Back To Homepage</a>
-</body>
+    <body>
+            <h1>Insaynitea Coffee</h1>
+
+            <img class="cup" src="../img/coffee.png"
+            alt="This is a picture of a coffee">
+            <br>
+            
+            <div class="container">
+                <!--the white box-->
+                <div class="login-box">
+
+                    <h1 class="login-header">Login as Manager</h1>
+                    
+                    <!--so that login info as all centered-->
+                    <div class="form">
+
+                        <p>Username</p>
+                        <label for="Username"></label>
+                        <input type="text" placeholder="Enter username"> 
+                        
+                        <p>Password</p>
+                        <label for="Password"></label>
+                        <input type="password" placeholder="Enter password" id=""> 
+                        
+                        <!--login button-->
+                        <button class="login-btn" onClick="loginManager()">Login</button>
+                        <a href="index.html">Back To Homepage</a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+    </body>
 </html>
