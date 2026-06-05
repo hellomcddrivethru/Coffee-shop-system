@@ -1,0 +1,34 @@
+.menu-tile {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.menu-tile {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.tile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.add-order-btn {
+  background: #4b672f;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
